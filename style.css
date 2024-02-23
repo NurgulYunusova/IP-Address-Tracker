@@ -75,6 +75,7 @@ button {
   top: 35%;
   left: 50%;
   transform: translate(-50%, -35%);
+  z-index: 999;
 }
 
 .info {
@@ -103,4 +104,9 @@ button {
 
 .info:not(:first-child) {
   padding-left: 30px;
+}
+
+#map {
+  width: 100%;
+  height: 62%;
 }
