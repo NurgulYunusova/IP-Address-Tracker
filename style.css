@@ -50,7 +50,7 @@ h1 {
   color: #8b8b8b;
 }
 
-button {
+#submitBtn {
   padding: 0 18px;
   background-color: #000;
   color: #fff;
@@ -62,10 +62,16 @@ button {
   letter-spacing: 0.5px;
   font-size: 15px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#submitBtn:hover {
+  background-color: #00000080;
 }
 
 .infos {
   width: 70%;
+  min-height: 120px;
   background-color: #fff;
   border-radius: 10px;
   display: flex;
